@@ -1,5 +1,10 @@
-base: 90,height:15 = hexagon
-base: 50,height: 50 = circle
-base: 70,height: 80 = square
+num1: 90,num2:15 = hexagon
+num1: 50,num2: 50 = circle
+num1: 70,num2: 80 = square
+num1: 85,num2: 20 = octogon
+num1: 2,num2: 65 = dot
+Num1: 100,Num2: 18 = "Hem"
+
+
 
 
