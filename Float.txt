@@ -1,1 +1,1 @@
-Flo: 78.9,Flo2: 13.68 = special heptagon
+Flo: 78.9,Flo2: 13.68 =  heptagon
