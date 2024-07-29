@@ -1,4 +1,4 @@
 # About shape maker
-Shape maker can only make a limited amount of shapes as its version 1.
+Shape maker is a program which is made to ve fun modifacations and suggestions are welcome.
 # Copyright
-Shape maker is free and has no rights reserved!
+Shape maker is free willingly free aslong as the original creator is mentioned.
