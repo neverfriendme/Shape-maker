@@ -1,6 +1,0 @@
-Who: 90,Who2:15 = hexagon
-Who: 50,Who2: 50 = circle
-Who: 70,Who2: 80 = square
-Who: 85,Who2: 20 = octogon
-Who: 2,Who2: 65 = dot
-Who: 100,Who2: 18 = "Hem"
