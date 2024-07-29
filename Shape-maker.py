@@ -2,7 +2,7 @@ from turtle import *
 __name__ == "__main__"
 
 print("Shape maker v3")
-print("Whole\nFloat\nMulti-input.w\nMulti\nQuit")
+print("Whole\nFloat\nMulti-input.w\nMulti-input.f\nQuit")
 WF = input("")
 
 if WF == "Whole":
