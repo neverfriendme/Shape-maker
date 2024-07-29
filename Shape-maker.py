@@ -32,7 +32,7 @@ elif WF == "Multi-input.f":
     import funcs
     funcs.Multi_input2()  
 elif WF == "Quit":
-    print("Quiting")
+    print("Quitting")
     quit()
 else:
     print("Invalid")
