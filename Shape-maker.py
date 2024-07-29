@@ -1,6 +1,8 @@
 from turtle import *
-print("Shape maker v2")
-print("Whole\nFloat\nMulti-input")
+__name__ == "__main__"
+
+print("Shape maker v3")
+print("Whole\nFloat\nMulti-input.w\nMulti\nQuit")
 WF = input("")
 
 if WF == "Whole":
@@ -23,18 +25,19 @@ elif WF == "Float":
             right(Flo2)
             left(Flo)
             right(Flo2)
-elif WF == "Multi-input":
-    Who3 = int(input("Who: "))
-    Who4 = int(input("Who2: "))
-    Flo3 = float(input("Flo: "))
-    Flo4 = float(input("Flo2: "))
-playing = True
-if playing == True:
-        while True:
-            forward(Who3)
-            right(Who4)
-            left(Flo3)
-            right(Flo4)
+elif WF == "Multi-input.w":
+    import funcs
+    funcs.Multi_input1()
+elif WF == "Multi-input.f":
+    import funcs
+    funcs.Multi_input2()  
+elif WF == "Quit":
+    print("Quiting")
+    quit()
 else:
     print("Invalid")
     quit()
+
+
+
+
