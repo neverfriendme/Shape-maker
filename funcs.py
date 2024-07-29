@@ -13,7 +13,7 @@ def Multi_input1():
             right(Who2)
             left(Who3)
             right(Who4)
-            return Multi_input1
+           
         
 def Multi_input2():
     Flo = float(input("Flo: "))
@@ -27,4 +27,4 @@ def Multi_input2():
             right(Flo2)
             left(Flo3)
             right(Flo4)
-            return Multi_input2
+            
