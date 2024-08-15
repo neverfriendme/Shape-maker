@@ -2,35 +2,19 @@ from turtle import *
 __name__ == "__main__"
 
 print("Shape maker v3")
-print("Whole\nFloat\nMulti-input.w\nMulti-input.f\nQuit")
+print("Quit\nForm\nlistfunc.[function]")
 WF = input("")
 
-if WF == "Whole":
-    Who = int(input("Who: "))
-    Who2 = int(input("Who2: "))
-    playing = True
-    if playing == True:
-        while True:
-            forward(Who)
-            right(Who2)
-            left(Who)
-            right(Who2)
-elif WF == "Float":
-    Flo = float(input("Flo: "))
-    Flo2 = float(input("Flo2: "))
-    playing = True
-    if playing == True:
-        while True:
-            forward(Flo)
-            right(Flo2)
-            left(Flo)
-            right(Flo2)
-elif WF == "Multi-input.w":
+
+if WF == "Form.circ":
     import funcs
-    funcs.Multi_input1()
-elif WF == "Multi-input.f":
+    funcs.Form_cric()
+elif WF == "Form.octa":
     import funcs
-    funcs.Multi_input2()  
+    funcs.Form_octa()
+elif WF == "Form.nona":
+    import funcs
+    funcs.Form_nona()  
 elif WF == "Quit":
     print("Quitting")
     quit()
