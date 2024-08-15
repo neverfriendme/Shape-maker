@@ -18,5 +18,10 @@ def Form_nona():
             right(90)
             left(50)
             forward(90)
+def listfunc_form():
+    print(".nona\n.circ\n.octa\nMore updates coming soon!")
+
+def help():
+    print("listfunc.[directory]\nHelp or ?h to get help")
 
             
