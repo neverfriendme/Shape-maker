@@ -1,8 +1,8 @@
 from turtle import *
 __name__ == "__main__"
 
-print("Shape maker v3")
-print("Quit\nForm\nlistfunc.[function]")
+print("Shape maker v4 pre-release")
+print("Quit\nForm\nlistfunc.[function]\nhelp")
 WF = input("")
 
 
@@ -18,9 +18,19 @@ elif WF == "Form.nona":
 elif WF == "Quit":
     print("Quitting")
     quit()
+elif WF == "listfunc.[Form]":
+    import funcs
+    funcs.listfunc_form()
+elif WF == "help" or "?h":
+    import funcs
+    funcs.help()
 else:
     print("Invalid")
     quit()
+
+
+
+
 
 
 
