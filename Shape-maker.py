@@ -1,7 +1,7 @@
 from turtle import *
 __name__ == "__main__"
 
-print("Shape maker v4 pre-release")
+print("Shape maker v4")
 print("Exit\nForm\nlistfunc\nhelp")
 WF = input("")
 if WF == "Form.circ":
