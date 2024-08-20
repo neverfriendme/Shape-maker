@@ -1,8 +1,8 @@
 from turtle import *
 __name__ == "__main__"
-Version = "version 5 pre-release"
+Version = "Version 5"
 print(Version)
-print("Exit\nForm\nlistfunc\nhelp")
+print("Exit\nForm\nlistfunc\nspecial\nhelp")
 if 1 == 1:
     while True:
             WF = input("")       
@@ -21,8 +21,11 @@ if 1 == 1:
                 print("exiting")
                 exit()
             elif WF == "listfunc.[Form]":
-                import funcs
-                funcs.listfunc_form()
+                 import funcs
+                 funcs.listfunc_form()
+            elif WF == "listfunc.[special]":
+                 import funcs
+                 funcs.listfunc_spec()
             elif WF == "Form.hexa":
                 import funcs
                 funcs.Form_hexa()
@@ -35,6 +38,9 @@ if 1 == 1:
             elif WF == "Form.squa":
                  import funcs
                  funcs.Form_squa()
+            elif WF == "special.special1":
+                 import funcs
+                 funcs.Form_spec1()
             elif WF == "help" or "?h":
                     import funcs
                     funcs.help()
