@@ -4,6 +4,7 @@ import math
 def Form_cric():
     if 1 == 1:
         while True:
+            forward(3.14)
             right(3.14)
 def Form_octa():
     if 1 == 1:
